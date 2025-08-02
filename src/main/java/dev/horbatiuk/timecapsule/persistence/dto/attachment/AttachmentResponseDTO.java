@@ -1,0 +1,20 @@
+package dev.horbatiuk.timecapsule.persistence.dto.attachment;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.UUID;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class AttachmentResponseDTO {
+    private UUID id;
+    private String filename;
+    private String description;
+    private String fileUrl;
+    private UUID capsuleId;
+}

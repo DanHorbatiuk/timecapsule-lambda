@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification</title>
+    <link rel="stylesheet" th:href="@{../email-styles.css}">
+</head>
+<body>
+    <div class="container">
+        <div class="email-content">
+            <div class="header">
+                <h1>Email Verification</h1>
+            </div>
+            <div class="body">
+                <p>Hello,</p>
+                <p>Thank you for registering with us. Please click the button below to verify your email address:</p>
+
+                <div class="button-container">
+                    <a th:href="${verificationUrl}" class="button" target="_blank">Verify Email Address</a>
+                </div>
+
+                <p>If the button doesn't work, copy and paste this link into your browser:</p>
+                <p><small th:text="${verificationUrl}"></small></p>
+
+                <p>If you did not create an account, no further action is required.</p>
+            </div>
+            <div class="footer">
+                <p>© 2025 TimeCapsule. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
