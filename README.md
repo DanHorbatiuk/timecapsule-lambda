@@ -1,6 +1,6 @@
 <a><img width="1660" height="412" alt="timecapsule-up" src="https://github.com/user-attachments/assets/433a0b7b-9788-479c-90e6-5b48ec000e70" /></a>
 
-# TimeCapsule Lambda code <br> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ita-social-projects/GreenCity/blob/master/LICENSE) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=timecapsule&metric=coverage)](https://sonarcloud.io/dashboard?id=timecapsule) [![GitHub release](https://img.shields.io/static/v1?label=Pre-release&message=v.1.0.0&color=yellowgreen)](https://github.com/DanHorbatiuk/timecapsule/releases)
+# TimeCapsule Lambda code <br> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ita-social-projects/GreenCity/blob/master/LICENSE) [![GitHub release](https://img.shields.io/static/v1?label=Pre-release&message=v.1.0.0&color=yellowgreen)](https://github.com/DanHorbatiuk/timecapsule/releases)
 
 **Copyright 2025 Danylo Horbatiuk**
 
